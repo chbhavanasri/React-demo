@@ -1,0 +1,178 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+box-shadow:  10px 0px 5px #c6c6c6,
+             -20px -20px 60px #ffffff;
+             cursor: pointer;
+             background-color:white;
+    position: fixed;
+    
+}
+.hamm_logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+
+}
+.search_mic{
+    display: flex;
+    align-items: center;
+
+}
+.person_logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.hamm-img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.logo-img{
+    width: 130px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.search{
+    width: 500px;
+    /* height: 30px; */
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    padding: 9px;
+}
+.mic-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 5px;
+}
+.person-img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.search-btn{
+    width: 80px;
+    height: 36px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    cursor: pointer;
+}
+.body{
+    width: auto;
+    height:100vh;
+    padding-top:60px;
+    display: flex;
+    align-items: center;
+    /*background-color: blue;*/
+    
+}
+.sidebar{
+    width: 20%;
+    height:100%;
+   /* border:5px solid red;*/
+   box-shadow:  0px 0px 5px #c6c6c6,
+             -20px -20px 60px #ffffff;
+}
+.maincontainer{
+    width: 80%;
+    height:100%;
+   /* border:5px solid red;*/
+}
+.btncontainer{
+    width: 100%;
+    position: sticky;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    overflow-x: auto;
+    padding: 10px;
+
+
+}
+.v-container{
+width: 100%;
+height: 100%;
+padding-left: 8px;
+padding-right: 20px;
+padding-top: 10px;
+display: flex;
+flex-wrap: wrap;
+overflow-y: auto;
+
+}
+.video{
+    width: 380px;
+    margin: 5px;
+    cursor: pointer;
+    padding: 3px;
+    
+
+}
+.btn-items{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 7px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.btn-flex{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(143, 138, 138);
+
+}
+.side-btns{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.name{
+    margin-right: 20px;
+}
+.video-img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.title{
+    margin: 2px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.n-v{
+    margin: 50px 200px;
+    cursor: pointer;
+    padding-top: 30px;
+    border-radius: 20px;
+
+}
